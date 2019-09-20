@@ -2,8 +2,8 @@
 
 namespace NotificationChannels\AwsPinpoint;
 
-use NotificationChannels\AwsPinpoint\Exceptions\CouldNotSendNotification;
 use Illuminate\Notifications\Notification;
+use NotificationChannels\AwsPinpoint\Exceptions\CouldNotSendNotification;
 
 class AwsPinpointChannel
 {
