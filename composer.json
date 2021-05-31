@@ -1,5 +1,5 @@
 {
-    "name": "kielabokkie/aws-pinpoint-laravel-notification-channel",
+    "name": "quincykwende/aws-pinpoint-laravel-notification-channel",
     "description": "Send notifications using AWS Pinpoint forked from kielabokkie/aws-pinpoint-laravel-notification-channel",
     "homepage": "https://github.com/kielabokkie/aws-pinpoint-laravel-notification-channel",
     "license": "MIT",
