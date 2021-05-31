@@ -1,6 +1,6 @@
 {
     "name": "kielabokkie/aws-pinpoint-laravel-notification-channel",
-    "description": "Send notifications using AWS Pinpoint",
+    "description": "Send notifications using AWS Pinpoint forked from kielabokkie/aws-pinpoint-laravel-notification-channel",
     "homepage": "https://github.com/kielabokkie/aws-pinpoint-laravel-notification-channel",
     "license": "MIT",
     "authors": [
@@ -8,6 +8,11 @@
             "name": "Wouter Peschier",
             "email": "kielabokkie@gmail.com",
             "homepage": "https://kielabokkie.nl",
+            "role": "Developer"
+        },
+        {
+            "name": "Quincy Kwende",
+            "email": "quincykwende@gmail.com",
             "role": "Developer"
         }
     ],
