@@ -34,7 +34,7 @@ Send SMS using AWS Pinpoint the easy way.
 You can install the package via composer by running the command below
 
 ```
-composer require kielabokkie/aws-pinpoint-laravel-notification-channel
+composer require quincykwende/aws-pinpoint-laravel-notification-channel
 ```
 
 ### Setting up the AwsPinpoint service
@@ -103,7 +103,7 @@ class PhoneVerificationCreated extends Notification
         $message = sprintf('Your order %s has been dispatched', $this->orderId);
 
         return (new AwsPinpointSmsMessage($message))
-            ->setRecipients($notifiable->mobile_number);
+            ->setRecipients($notifiable->mobile_number)->setSenderId($notifiable->senderId);
     }
 }
 ```

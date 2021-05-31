@@ -35,7 +35,7 @@ class AwsPinpointSmsMessage
         return $this;
     }
 
-    public function setSender($senderId)
+    public function setSenderId($senderId)
     {
         $this->senderId = trim($senderId);
 
