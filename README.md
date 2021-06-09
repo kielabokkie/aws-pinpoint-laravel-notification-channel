@@ -34,7 +34,7 @@ Send SMS using AWS Pinpoint the easy way.
 You can install the package via composer by running the command below
 
 ```
-composer require quincykwende/aws-pinpoint-laravel-notification-channel
+composer require kielabokkie/aws-pinpoint-laravel-notification-channel
 ```
 
 ### Setting up the AwsPinpoint service
