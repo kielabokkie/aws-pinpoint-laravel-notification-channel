@@ -40,6 +40,20 @@ class AwsPinpointSmsMessageTest extends TestCase
     }
 
     /** @test */
+    public function it_can_set_sender()
+    {
+        $message = (new AwsPinpointSmsMessage)->setSenderId('12025550134');
+        $this->assertEquals('12025550134', $message->senderId);
+    }
+
+    /** @test */
+    public function it_can_set_sender_from_config()
+    {
+        $message = (new AwsPinpointSmsMessage);
+        $this->assertEquals(null, $message->senderId);
+    }
+
+    /** @test */
     public function it_can_set_message_type()
     {
         $message = (new AwsPinpointSmsMessage)->setMessageType('PROMOTIONAL');
